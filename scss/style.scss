@@ -296,10 +296,10 @@ a {
 }
 // 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// TRAVEL
-.holder {
+.holder-travel {
     background-repeat: no-repeat;
     background-position: center;
-    background-size:contain;
+    background-size:cover;
     .slider-arrows {
         top: 225px;
     }
@@ -307,8 +307,8 @@ a {
 .holder-slider {
     &__head {
         background-repeat: no-repeat;
-        background-position: center;
-        min-height: 780px;
+        background-position:top center;
+        // min-height: 780px;
     }
     &__descr {
         margin-top: -230px;
@@ -383,16 +383,9 @@ a {
         }
     }
 }
-.holder-slider__descr.sleep  {
-    background-size: contain;
-}
-.plane {
-    background-repeat: no-repeat;
-    background-position: right center;
-}
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// SHOP
 .shop {
-    background-image: url(../img/buy-bg.png);
+    
     background-repeat: no-repeat;
     background-position:center;
     background-size: cover;
